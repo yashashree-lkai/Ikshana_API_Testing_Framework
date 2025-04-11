@@ -1,0 +1,47 @@
+environment: "wks"
+
+environments:
+  lcsrv02:
+    base_url: "http://lcsrv02:6443"
+    db_host: "lcsrv02,50058"
+    db_name: "TVS_Hosur_Battery_Assembly_Line"
+    db_user: "sa"
+    db_password: "Linecraft@123"
+    username: "admin"
+    password: "admin"
+    config_id: ""
+    project_id: ""
+
+  srv09021:
+    base_url: "http://srv09021:8080"
+    db_host: "srv09021"
+    db_name: "TVS_Hosur_Battery_Assembly_Line"
+    db_user: "sa"
+    db_password: "LineCraft@qa123"
+    username: "noman@linecraft.ai"
+    password: "admin@123"
+    config_id: ""
+    project_id: ""
+
+  wks:
+    base_url: "http://wks1103:8083"
+    db_host: "lcsrv02,50058"
+    db_name: "TVS_Hosur_Battery_Assembly_Line"
+    db_user: "sa"
+    db_password: "Linecraft@123"
+    username: "admin"
+    password: "admin"
+    config_id: ""
+    project_id: ""
+
+  UAT:
+    base_url: "https://uat.linecraft.ai:6445"
+    db_host: "13.235.160.241"
+    db_name: "Ford_Cologne_CX740_Battery_Assembly_line_SEGMENT_1"
+    db_user: "reader"
+    db_password: "Linecraft@123"
+    username: "admin"
+    password: "Line#Craft@123"
+    config_id: ""
+    project_id: ""
+
